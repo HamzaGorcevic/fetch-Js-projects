@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(58, 169, 197),rgb(34, 159, 168));
+}
+
+.tabla{
+    background-color: rgb(50, 53, 209);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-family: Poppins,sans-serif;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+
+.nav{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    bottom:50%; 
+}
+
+.left,.right{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+}
+
+.strana,.levo,.desno,.prva,.poslednja,.tackice,.tackiceKraj{
+    font-size: 22px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+}
+.strana{
+    background-color: black;
+    color: white;
+}
+
+
+
