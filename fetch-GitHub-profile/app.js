@@ -173,7 +173,7 @@ dugme.addEventListener('click',()=>{
                         container.appendChild(containerSecond)
 
 
-                        if(followFres.lengthc >= 1){
+                        if(followFres.length >= 1){
                             for(i=0;i<followFres.length ;i++){
                     
                 
